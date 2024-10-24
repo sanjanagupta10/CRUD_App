@@ -20,6 +20,7 @@ Make sure your system is up to date.
 # bash
 sudo apt update
 sudo apt upgrade
+sudo apt install curl
 
 ## Install Node.js 
 -curl -fsSL https://deb.nodesource.com/setup_21.x | sudo -E bash -
@@ -35,6 +36,9 @@ sudo apt upgrade
 **Sometimes packages are held back from upgrades. To check for such packages, use:--**
 -sudo apt-mark showhold
 
+## Go to the Client directory , if you're not.
+-cd Client/
+
 ## Install Project Dependencies-
 -npm install
 (This will install all required Node.js modules listed in the package.json file.)
@@ -42,14 +46,14 @@ sudo apt upgrade
 ## Verify NPM Version-
 -npm -v
 
-## Go inside Client Directory If you're not in Client Directory
-``` bash
-cd Client
-```
 ## Start Development Server-
 -npm run dev
 
-
+## Now you can perform these operations 
+**Create** a book: Use a form to add a book to the database.
+**Read:** View the list of books.
+**Update:** Edit the details of a book.
+**Delete:** Remove a book from the database.
 
 
 

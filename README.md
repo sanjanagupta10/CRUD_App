@@ -19,6 +19,10 @@ For detailed setup instructions, please refer to the respective README files for
 |-- /client/README.md # Client README (for frontend setup)
 |-- /server/README.md # Server README (for backend setup)
 ```
+
+## Go inside the CRUD_App/CRUD_app_Flask/ directory , if you're not in CRUD_App/CRUD_app_Flask/ directory.
+-cd CRUD_App/CRUD_app_Flask/
+
 ## Setting Up the Server (Flask)
 Follow the detailed instructions for setting up the Flask server in the **Server README**.
 
