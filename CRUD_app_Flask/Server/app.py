@@ -9,8 +9,8 @@ CORS(app)
 
 db_config = {
     'host': 'localhost',
-    'user': 'postgres',  # Use your PostgreSQL username
-    'password': 'sanjana',  # Your PostgreSQL password
+    'user': 'your_username',  # Use your PostgreSQL username
+    'password': 'your_password',  # Your PostgreSQL password
     'dbname': 'demo_flask'  # Database name in PostgreSQL
 }
 
