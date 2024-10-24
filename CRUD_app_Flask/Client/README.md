@@ -21,13 +21,14 @@ Make sure your system is up to date.
 sudo apt update
 sudo apt upgrade
 sudo apt install curl
+## to download specific version of nodejs
 
 ## Install Node.js 
 -curl -fsSL https://deb.nodesource.com/setup_21.x | sudo -E bash -
 -sudo apt install -y nodejs
 
-## Verify Node.js installation:
--node -v
+## Verify Node.js installation:(you got the version 21.xx)
+-node -v  
 
 ## Fix Missing Dependencies (if required)
 -sudo apt-get install -f
@@ -43,7 +44,7 @@ sudo apt install curl
 -npm install
 (This will install all required Node.js modules listed in the package.json file.)
 
-## Verify NPM Version-
+## Verify NPM Version-(you got version 10.xx)
 -npm -v
 
 ## Start Development Server-
