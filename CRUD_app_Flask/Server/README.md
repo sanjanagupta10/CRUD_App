@@ -50,6 +50,10 @@ db_config = {
     'dbname': 'demo_flask'  # The database name
 }
 
+# Go to the Server Directory If you're not in Server Directory
+```bash
+cd Server
+```
 # Run the Application:
 
 - **For MySQL:**

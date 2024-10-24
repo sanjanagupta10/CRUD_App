@@ -42,7 +42,10 @@ sudo apt upgrade
 ## Verify NPM Version-
 -npm -v
 
-
+## Go inside Client Directory If you're not in Client Directory
+``` bash
+cd Client
+```
 ## Start Development Server-
 -npm run dev
 
